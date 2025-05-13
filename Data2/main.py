@@ -7,7 +7,7 @@ def to_mb(bytes):
 
 
 if __name__ == '__main__':
-    df = yf.download("AAPL", start="2024-01-01", end="2024-12-31")
+    df = yf.download("AAPL", start="2015-01-01", end="2024-12-31")
     print(df)
     df = df.reset_index()
     print(df)
